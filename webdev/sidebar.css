@@ -1,0 +1,35 @@
+.sidebar{
+    position:fixed;
+       background-color: rgb(242, 235, 235);
+       color: rgb(13, 13, 13);
+       top:55px;
+       left: 0;
+       bottom: 0;
+       width: 200px;
+        border-right-width:1px ;
+     border-right-style:solid ;
+     border-right-color:rgb(198, 192, 192) ;
+     z-index: 1;
+}
+.sidebar-item{
+
+height: 45px;
+margin-bottom: 2px;
+display: flex;
+align-items: center;
+gap: 20px;
+padding-left: 20px;
+
+}
+.side-bar-text{
+    font-family: "Roboto";
+    font-size: 14px;
+
+}
+.sidebar-item:hover{
+    background-color: rgb(218, 219, 219);
+
+}
+.sidebar-item img{
+    height: 24px;
+}
